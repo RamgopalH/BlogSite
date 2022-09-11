@@ -33,3 +33,10 @@
 	font-size: 12px;
   color: #fff;
 }
+
+.truncate {
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
