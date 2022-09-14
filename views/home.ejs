@@ -9,4 +9,8 @@
 <p><%= post.content.substring(0,100) + '...' %> <a href="./post/<%= post._id %>">Read More</a></p>
 <% }); %>
 
+<form action="/compose" method="get">
+    <button type="submit">+</button>
+</form>
+
 <%- include('./partials/footer') %>
